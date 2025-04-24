@@ -1,0 +1,137 @@
+/* General body styling */
+body {
+    font-family: 'Inter', sans-serif; /* Sets the font family for the entire page */
+    max-width: 800px; /* Limits the maximum width of the content */
+    margin: 0 auto; /* Centers the content horizontally */
+    padding: 20px; /* Adds padding inside the body */
+    background-color: #0B1622; /* Sets the background color */
+}
+
+/* Title styling */
+.title {
+    text-align: center; /* Centers the text */
+}
+
+/* Styling for the first GIF */
+.dance {
+    width: 220px; /* Sets the width of the GIF */
+    position: absolute; /* Positions the GIF absolutely */
+    right: 3em; /* Positions the GIF 3em from the right */
+    top: 20em; /* Positions the GIF 20em from the top */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    position: fixed; /* GIF doesn't move when user scrolls */
+}
+
+/* Styling for the second GIF */
+.dance2 {
+    width: 380px; /* Sets the width of the GIF */
+    position: absolute; /* Positions the GIF absolutely */
+    left: -2em; /* Positions the GIF 2em from the left */
+    top: 17em; /* Positions the GIF 17em from the top */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    position: fixed; /* GIF doesn't move when user scrolls */
+}
+
+/* Main heading styling */
+h1 {
+    text-align: center; /* Centers the text */
+    background: linear-gradient(90deg, #1E3A8A, #FF7E5F); /* Creates a gradient background */
+    font-size: 2rem; /* Sets the font size */
+    font-weight: 700; /* Makes the text bold */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text fill color transparent */
+    margin-bottom: 50px; /* Adds margin below the heading */
+}
+
+/* Styling for each anime row */
+.anime-row {
+    display: flex; /* Displays items in a flex container */
+    margin-bottom: 20px; /* Adds space below each row */
+    padding: 10px; /* Adds padding inside each row */
+    border-radius: 4px; /* Rounds the corners */
+    background-color: #151F2E; /* Sets the background color */
+}
+
+/* Title styling inside each anime row */
+.anime-row h2 {
+    margin-top: 6px; /* Adds space above the title */
+    color: #3DB4F2; /* Sets the text color */
+}
+
+/* Styling for the anime cover image */
+.anime-cover {
+    width: 160px; /* Sets the width of the cover image */
+    margin-right: 20px; /* Adds space to the right of the image */
+    object-fit: cover; /* Ensures the image covers the container */
+}
+
+/* Container for anime information */
+.anime-info {
+    flex-grow: 1; /* Allows the container to grow and fill available space */
+}
+
+/* Styling for subbars in the rating section */
+.subbar {
+    border-radius: 3px; /* Rounds the corners */
+    display: flex; /* Displays items in a flex container */
+    align-items: center; /* Centers items vertically */
+}
+
+/* Text styling inside subbars */
+.subbar span {
+    padding-left: 8px; /* Adds space to the left of the text */
+    color: white; /* Sets the text color */
+    font-size: 15px; /* Sets the font size */
+}
+
+/* Container for rating bars */
+.rating-bar {
+    height: 66px; /* Sets the height of the rating bar */
+    background-color: #1a273a; /* Sets the background color */
+    border-radius: 5px; /* Rounds the corners */
+    padding: 10px; /* Adds padding inside the container */
+    display: grid; /* Uses a grid layout */
+    row-gap: 5px; /* Adds space between rows */
+}
+
+/* Styling for MAL rating bar */
+.mal-rating {
+    background-color: #2e51a2; /* Sets the background color */
+}
+
+/* Styling for AniList rating bar */
+.anilist-rating {
+    background-color: #02a9ff; /* Sets the background color */
+}
+
+/* Container for popularity text */
+.popularity-text {
+    display: flex; /* Displays items in a flex container */
+}
+
+/* First child text in popularity section */
+.popularity-text :first-child {
+    color: #9FADBD; /* Sets the text color */
+}
+
+/* Last child text in popularity section */
+.popularity-text :last-child {
+    margin-left: 10rem; /* Adds space to the left */
+    color: #02a9ff; /* Sets the text color */
+}
+
+/* Container for favorites text */
+.favourites-text {
+    display: flex; /* Displays items in a flex container */
+}
+
+/* First child text in favorites section */
+.favourites-text :first-child {
+    color: #9FADBD; /* Sets the text color */
+}
+
+/* Last child text in favorites section */
+.favourites-text :last-child {
+    margin-left: 10rem; /* Adds space to the left */
+    color: #02a9ff; /* Sets the text color */
+}
