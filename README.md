@@ -12,7 +12,9 @@ This web application uses the AniList API to display the top-ranking anime based
 - **HTML**: Structure of the website
 - **CSS**: Styling for layout and design
 - **JavaScript**: Fetching data from AniList API and dynamic content rendering
-- **AniList API**: Used to fetch live anime data based on rankings
+
+## API Used  
+This project uses the [AniList API](https://anilist.gitbook.io/anilist-apiv2-docs/) to fetch anime/manga data.
 
 ## How to Run
 
